@@ -84,8 +84,8 @@ fabric.properties
 # Ignore everything but code style settings and run configurations
 # that are supposed to be shared within teams.
 
-#.idea/*
-#
+.idea/*
+
 #!.idea/codeStyles
 #!.idea/runConfigurations
 
@@ -167,6 +167,12 @@ Temporary Items
 .history
 .ionide
 
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -215,9 +221,5 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-
-### Gradle Patch ###
-# Java heap dump
-*.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/java,gradle,intellij+all,windows,macos,visualstudiocode
